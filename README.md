@@ -8,7 +8,7 @@ To answer the research questions, we identified the following high level require
 
 Figure 1 shows a summary of the method used.
 <figure>
-<p align="center"><img src="METHOD.JPG" width="400"/></p>
+<p align="center"><img src="METHOD.jpg" width="400"/></p>
 <figcaption align="center">Figure 1: Method in a nutshell.</figcaption>
 </figure>
 

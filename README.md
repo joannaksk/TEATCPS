@@ -72,7 +72,7 @@ The Spatial Contact Force blocksmodel the frictional forces applied between the
 ### 1.2.6. Body Implementation
 The rest of the body, Figure 9, was implemented as a single Brick solid block. There was a singleSpherical solid block attached at the back of the main solid to model the corresponding metal wheel atthe back of the actual robot. There were Spatial Contact Force blocks for both sensors, the Sphericalsolid at the back, and the body. The body is modelled in this simple manner because adding moredetail to the body would not have added a significant amount of value to the simulation process. Onthe other hand, adding more detail would have added a comparable simulation overhead since each newcomponent would have meant an additional equation to be solved during simulation.
 <figure>
-<center><img src="Body.png" width="600"/></center>
+<p align="center"><img src="Body.png" width="600"/></p>
 <figcaption align="center">Figure 8: The Body.</figcaption>
 </figure>
 
@@ -96,7 +96,7 @@ To vary real world events, the faults that were chosen were faults that could oc
 
 
 The table below shows a mapping of the faults that were introduced to their corresponding test cases.
-<center>
+<p align="center">
 
 | Fault                     | Fault Code | Test Case Name      |
 |---------------------------|------------|---------------------|
@@ -109,7 +109,7 @@ The table below shows a mapping of the faults that were introduced to their corr
 | F4 = Motor Fault          | F4         | Right Motor Fault   |
 | F5 = PID Controller Fault | F5         | PID Fault P 0       |
 
-</center>
+</p>
 
 These five faults were selected because they are representative of real-world faults that could occur duringthe operation of a cyber-physical system and the blast radius of their implementation on the physicalrobot was manageable, in other words, they would not cause significant damage to the robot.
 
@@ -126,31 +126,31 @@ The model alterations included:* **MA1**: Changing the Track Function argument
 ### 1.5.5. Test Scenarios
 
 <figure>
-<center><img src="Test Scenarios 1.png" width="600"/></center>
+<p align="center"><img src="Test Scenarios 1.png" width="600"/></p>
 <figcaption align="center">Figure 9: The Physical Test Scenarios alongside their Virtual Counterparts.</figcaption>
 </figure>
 
 <figure>
-<center><img src="Test Scenarios 2.png" width="600"/></center>
+<p align="center"><img src="Test Scenarios 2.png" width="600"/></p>
 <figcaption align="center">Figure 10: The Physical Test Scenarios alongside their Virtual Counterparts.</figcaption>
 </figure>
 
 ### 1.5.6. Faults
 
 <figure>
-<center><img src="HiL Wheel Size Fault.png" width="600"/></center>
+<p align="center"><img src="HiL Wheel Size Fault.png" width="600"/></p>
 <figcaption align="center">Figure 11: The HiL Wheel Size Fault.</figcaption>
 </figure>
 <figure>
-<center><img src="HiL Obstacle Fault.jpg" width="600"/></center>
+<p align="center"><img src="HiL Obstacle Fault.jpg" width="600"/></p>
 <figcaption align="center">Figure 12: The HiL Obstacle Fault.</figcaption>
 </figure>
 <figure>
-<center><img src="HiL Sensor Fault.jpg" width="600"/></center>
+<p align="center"><img src="HiL Sensor Fault.jpg" width="600"/></p>
 <figcaption align="center">Figure 13: The HiL Sensor Fault.</figcaption>
 </figure>
 <figure>
-<center><img src="HiL Motor Fault.jpg" width="600"/></center>
+<p align="center"><img src="HiL Motor Fault.jpg" width="600"/></p>
 <figcaption align="center">Figure 14: The HiL Motor Fault.</figcaption>
 </figure>
 
@@ -171,7 +171,7 @@ After all the test scenarios had been simulated, they were first ranked accordin
 The table below shows the results of the test cases exercised first at the MiL level, (MiL) and then at theHiL level (HiL).The results from the MiL level were used to come up with an indicative ranking, thusanswering research question, RQ1.
 
 <figure>
-<center><img src="Results Table.png" width="600"/></center>
+<p align="center"><img src="Results Table.png" width="600"/></p>
 <figcaption align="center">Table 2: The Results.</figcaption>
 </figure>The results at the HiL level were used to come up with a counter ranking which was compared with thethe indicative ranking to answer the second research question, RQ2. The tie breaker metrics were usedto come up with a weights to help rank the scenarios.Because part of the premise of this work and test case prioritisation in general is test effort minimization,the tie breaker metrics were used as weights that represent the additional effort that may be involvedin making the alterations necessary to the original set-up of the system and it’s test environment toimplement a single test scenario that is different from the original set up. 
 Thus they are stand-in valuesfor the actual test effort required at the MiL and HiL test configuration levels.In the case of model alterations, the more expensive the alterations made to the model set-up to createthe test scenario, the larger the weight. Since we had 4 types of model alterations, MA1 to MA4, theweights attached to them were 1 to 4 respectively.
@@ -184,7 +184,7 @@ For each modelled test scenario the predicted route of the robot was plotted and
 Table 3 shows the accuracies of the route the robot was predicted to take according to the plant modelsimulation. Since the plant model was not a completely accurate model of the robot, these values wereonly considered as indicators of what could happen at the HiL level.
 
 <figure>
-<center><img src="Accuracies Table.png" width="600"/></center>
+<p align="center"><img src="Accuracies Table.png" width="600"/></p>
 <figcaption align="center">Table 3: Test Scenario Predicted Accuracies. <br>
 Each cell represents the percentage of x, y coordinates of the plant model’s translation that lay withinthe plant model of the track.</figcaption>
 </figure>
@@ -192,14 +192,14 @@ Each cell represents the percentage of x, y coordinates of the plant model’s t
 Table 4 shows how well the plant model was able to predict the behavioural response of the robot tothe faults injected in each test scenario. This allowed us to obtain an average prediction accuracy of theplant model of the robot.
 
 <figure>
-<center><img src="Average Prediction Accuracy Table.png" width="600"/></center>
+<p align="center"><img src="Average Prediction Accuracy Table.png" width="600"/></p>
 <figcaption align="center">Table 4: Table showing the prediction accuracy of the plant model. <br>
 The average prediction accuracy of the plant model with regard to the expected behaviourof the physical robot in reaction to the injected faults for the test scenarios.Each cell represents whether or not the physical robot reacted to the injected fault in the same way asthe plant model of the physical robot.</figcaption>
 </figure>
 
 #### 3.2.1. Ranking and Answers to Research Questions
 <figure>
-<center><img src="Ranking Table 1.png" width="800"/></center>
+<p align="center"><img src="Ranking Table 1.png" width="800"/></p>
 <figcaption align="center">Table 5: Ranking of Test Scenarios at the MiL and HiL levels.</figcaption>
 </figure>
 Table 5 shows the ranking of the test scenarios at the MiL and HiL level. To obtain the score of eachtest scenario, Correlation Combination 4 was used, that is the product of the number of faults detectedand the weight of the alteration applied to the model, in the MiL case, and the number of tiles, in theHiL case.
@@ -207,7 +207,7 @@ The average prediction accuracy of the plant model with regard to the expected b
 A comparison of the 4 different correlation combinations is shown in Table 5.6. In the table, we seethat the second correlation combination has the highest Kendall τ-b score 0.49 and the lowest p-value,0.06. However, none of the p-values reported are low enough to refute a null hypothesis within a 95%confidence level. This may be due to the fact that the sample size is small,we have only ten rankings. It may also be due to the fact that the model is not completely accurate.
 
 <figure>
-<center><img src="Ranking Table 2.png" width="800"/></center>
+<p align="center"><img src="Ranking Table 2.png" width="800"/></p>
 <figcaption align="center">Table 6: Ranking of Test Scenarios at the MiL and HiL levels according to the four correlation combinations.</figcaption>
 </figure>
 

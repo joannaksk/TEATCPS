@@ -9,7 +9,7 @@ To answer the research questions, we identified the following high level require
 Figure 1 shows a summary of the method used.
 <figure>
 <p align="center"><img src="METHOD.jpg" width="400"/></p>
-<figcaption align="center">Figure 1: Method in a nutshell.</figcaption>
+<p align="center"><figcaption align="center">Figure 1: Method in a nutshell.</figcaption></p>
 </figure>
 
 ## 1.1. Robot Assembly and Control Model Implementation
@@ -18,16 +18,16 @@ The robot was built using [LEGO MINDSTORMS EV3](https://education.LEGO.com/en-us
 The [MATLAB Support Package for Raspberry Pi](https://nl.mathworks.com/hardware-support/raspberry-pi-MATLAB.html) was used to create the control model(controller) that is run on the Raspberry PI hardware and controls the movement of the robot.
 <figure>
 <p align="center"><img src="robot.png" width="250"/></p>
-<figcaption align="center">Figure 2: Robot.</figcaption>
+<p align="center"><figcaption align="center">Figure 2: Robot.</figcaption></p>
 </figure>
 The control model of the robot was altered so that the LineFollowControl model component was it's own model that could be referenced by other models. This was done to allow it to be used to control the plant model of the robot during simulation.
 <figure>
 <p align="center"><img src="control model altered.png" width="600"/></p>
-<figcaption align="center">Figure 3: The figure shows the control model altered by extracting the LineFollowControl sub-model and re-importing it as a Referenced model.</figcaption>
+<p align="center"><figcaption align="center">Figure 3: The figure shows the control model altered by extracting the LineFollowControl sub-model and re-importing it as a Referenced model.</figcaption></p>
 </figure>
 <figure>
 <p align="center"><img src="LineFollowControl.png" width="600"/></p>
-<figcaption align="center">Figure 4: The LineFollowControl sub-model that contained the PID control logic.</figcaption>
+<p align="center"><figcaption align="center">Figure 4: The LineFollowControl sub-model that contained the PID control logic.</figcaption></p>
 </figure>
 
 ## 1.2. Plant Model Implementation
@@ -37,7 +37,7 @@ A simplified model of the line follower robot was created in within the Simscape
 The ground was modelled as an [Infinite plane](https://in.mathworks.com/help/physmod/sm/ref/infiniteplane.html) block connected to the World Frame block. The lane was implemented as a pair of nonintersecting [splines](https://in.mathworks.com/help/physmod/sm/ref/spline.html). This way, the track could be defined using mathematical functions.
 <figure>
 <p align="center"><img src="Ground Model.png" width="200"/></p>
-<figcaption align="center">Figure 5: The figure shows the ground and track implemented as an infinite plane block and a pair of spline blocksrespectively.</figcaption>
+<p align="center"><figcaption align="center">Figure 5: The figure shows the ground and track implemented as an infinite plane block and a pair of spline blocksrespectively.</figcaption></p>
 </figure>
 
 ### 1.2.2. Sensor Subsystem Implementation
@@ -45,7 +45,7 @@ The sensor subsystem comprised 2 [brick solid](https://in.mathworks.com/help/phy
 The scalar values we obtained were then passed into 2 independent functions that helped track the position of the model robot within the model track.
 <figure>
 <p align="center"><img src="Sensor Subsystem.png" width="600"/></p>
-<figcaption align="center">Figure 6: The figures shows a close up of the sensor subsystem that models the sensors of the physical robot.</figcaption>
+<p align="center"><figcaption align="center">Figure 6: The figures shows a close up of the sensor subsystem that models the sensors of the physical robot.</figcaption></p>
 </figure>
 
 ### 1.2.3. Controller Implementation
@@ -56,7 +56,7 @@ The Motor Subsystem was modelled using a constant block that has a configurable 
 Within the plant model, since the wheels were represented by [Revolute joints](https://www.mathworks.com/help/physmod/sm/ref/revolutejoint.html), the actuation forcepercentage output from the *LineFollowControl* was instead multiplied by the ideal torque value. Thisvalue was then converted into a physical signal by the [Simulink-PS Converter block](https://www.mathworks.com/help/physmod/simscape/ref/simulinkpsconverter.html) and fed to the Revolute joint blocks.
 <figure>
 <p align="center"><img src="Motor Subsystem.png" width="600"/></p>
-<figcaption align="center">Figure 7: The Motor Subsystem.</figcaption>
+<p align="center"><figcaption align="center">Figure 7: The Motor Subsystem.</figcaption></p>
 </figure>
 
 ### 1.2.5. Wheel Subsystem Implementation
@@ -64,7 +64,7 @@ Each wheel, Figure 8, was modelled using 3 pairs of [Spatial Contact Force](http
 
 <figure>
 <p align="center"><img src="Wheel Subsystem.png" width="600"/></p>
-<figcaption align="center">Figure 8: The Wheel Subsystem.</figcaption>
+<p align="center"><figcaption align="center">Figure 8: The Wheel Subsystem.</figcaption></p>
 </figure>
 
 The Spatial Contact Force blocksmodel the frictional forces applied between the wheels and the ground, infinite plane. The Sphericalsolid blocks modelled the physical properties of the wheels such as the mass. The Extruded Solid blockonly offered the visual representation of the wheel.
@@ -73,7 +73,7 @@ The Spatial Contact Force blocksmodel the frictional forces applied between the
 The rest of the body, Figure 9, was implemented as a single Brick solid block. There was a singleSpherical solid block attached at the back of the main solid to model the corresponding metal wheel atthe back of the actual robot. There were Spatial Contact Force blocks for both sensors, the Sphericalsolid at the back, and the body. The body is modelled in this simple manner because adding moredetail to the body would not have added a significant amount of value to the simulation process. Onthe other hand, adding more detail would have added a comparable simulation overhead since each newcomponent would have meant an additional equation to be solved during simulation.
 <figure>
 <p align="center"><img src="Body.png" width="600"/></p>
-<figcaption align="center">Figure 8: The Body.</figcaption>
+<p align="center"><figcaption align="center">Figure 8: The Body.</figcaption></p>
 </figure>
 
 ## 1.3. Shared Configuration Creation
@@ -96,7 +96,7 @@ To vary real world events, the faults that were chosen were faults that could oc
 
 
 The table below shows a mapping of the faults that were introduced to their corresponding test cases.
-<p align="center">
+<div align="center">
 
 | Fault                     | Fault Code | Test Case Name      |
 |---------------------------|------------|---------------------|
@@ -109,7 +109,7 @@ The table below shows a mapping of the faults that were introduced to their corr
 | F4 = Motor Fault          | F4         | Right Motor Fault   |
 | F5 = PID Controller Fault | F5         | PID Fault P 0       |
 
-</p>
+</div>
 
 These five faults were selected because they are representative of real-world faults that could occur duringthe operation of a cyber-physical system and the blast radius of their implementation on the physicalrobot was manageable, in other words, they would not cause significant damage to the robot.
 
@@ -127,31 +127,31 @@ The model alterations included:* **MA1**: Changing the Track Function argument
 
 <figure>
 <p align="center"><img src="Test Scenarios 1.png" width="600"/></p>
-<figcaption align="center">Figure 9: The Physical Test Scenarios alongside their Virtual Counterparts.</figcaption>
+<p align="center"><figcaption align="center">Figure 9: The Physical Test Scenarios alongside their Virtual Counterparts.</figcaption></p>
 </figure>
 
 <figure>
 <p align="center"><img src="Test Scenarios 2.png" width="600"/></p>
-<figcaption align="center">Figure 10: The Physical Test Scenarios alongside their Virtual Counterparts.</figcaption>
+<p align="center"><figcaption align="center">Figure 10: The Physical Test Scenarios alongside their Virtual Counterparts.</figcaption></p>
 </figure>
 
 ### 1.5.6. Faults
 
 <figure>
 <p align="center"><img src="HiL Wheel Size Fault.png" width="600"/></p>
-<figcaption align="center">Figure 11: The HiL Wheel Size Fault.</figcaption>
+<p align="center"><figcaption align="center">Figure 11: The HiL Wheel Size Fault.</figcaption></p>
 </figure>
 <figure>
 <p align="center"><img src="HiL Obstacle Fault.jpg" width="600"/></p>
-<figcaption align="center">Figure 12: The HiL Obstacle Fault.</figcaption>
+<p align="center"><figcaption align="center">Figure 12: The HiL Obstacle Fault.</figcaption></p>
 </figure>
 <figure>
 <p align="center"><img src="HiL Sensor Fault.jpg" width="600"/></p>
-<figcaption align="center">Figure 13: The HiL Sensor Fault.</figcaption>
+<p align="center"><figcaption align="center">Figure 13: The HiL Sensor Fault.</figcaption></p>
 </figure>
 <figure>
 <p align="center"><img src="HiL Motor Fault.jpg" width="600"/></p>
-<figcaption align="center">Figure 14: The HiL Motor Fault.</figcaption>
+<p align="center"><figcaption align="center">Figure 14: The HiL Motor Fault.</figcaption></p>
 </figure>
 
 At the MiL test configuration level, the faults were implemented as changes to the model or to the model configuration.
@@ -172,7 +172,7 @@ The table below shows the results of the test cases exercised first at the MiL l
 
 <figure>
 <p align="center"><img src="Results Table.png" width="600"/></p>
-<figcaption align="center">Table 2: The Results.</figcaption>
+<p align="center"><figcaption align="center">Table 2: The Results.</figcaption></p>
 </figure>The results at the HiL level were used to come up with a counter ranking which was compared with thethe indicative ranking to answer the second research question, RQ2. The tie breaker metrics were usedto come up with a weights to help rank the scenarios.Because part of the premise of this work and test case prioritisation in general is test effort minimization,the tie breaker metrics were used as weights that represent the additional effort that may be involvedin making the alterations necessary to the original set-up of the system and it’s test environment toimplement a single test scenario that is different from the original set up. 
 Thus they are stand-in valuesfor the actual test effort required at the MiL and HiL test configuration levels.In the case of model alterations, the more expensive the alterations made to the model set-up to createthe test scenario, the larger the weight. Since we had 4 types of model alterations, MA1 to MA4, theweights attached to them were 1 to 4 respectively.
 
@@ -185,22 +185,22 @@ Table 3 shows the accuracies of the route the robot was predicted to take accord
 
 <figure>
 <p align="center"><img src="Accuracies Table.png" width="600"/></p>
-<figcaption align="center">Table 3: Test Scenario Predicted Accuracies. <br>
-Each cell represents the percentage of x, y coordinates of the plant model’s translation that lay withinthe plant model of the track.</figcaption>
+<p align="center"><figcaption align="center">Table 3: Test Scenario Predicted Accuracies. <br>
+Each cell represents the percentage of x, y coordinates of the plant model’s translation that lay withinthe plant model of the track.</figcaption></p>
 </figure>
 
 Table 4 shows how well the plant model was able to predict the behavioural response of the robot tothe faults injected in each test scenario. This allowed us to obtain an average prediction accuracy of theplant model of the robot.
 
 <figure>
 <p align="center"><img src="Average Prediction Accuracy Table.png" width="600"/></p>
-<figcaption align="center">Table 4: Table showing the prediction accuracy of the plant model. <br>
-The average prediction accuracy of the plant model with regard to the expected behaviourof the physical robot in reaction to the injected faults for the test scenarios.Each cell represents whether or not the physical robot reacted to the injected fault in the same way asthe plant model of the physical robot.</figcaption>
+<p align="center"><figcaption align="center">Table 4: Table showing the prediction accuracy of the plant model. <br>
+The average prediction accuracy of the plant model with regard to the expected behaviourof the physical robot in reaction to the injected faults for the test scenarios.Each cell represents whether or not the physical robot reacted to the injected fault in the same way asthe plant model of the physical robot.</figcaption></p>
 </figure>
 
 #### 3.2.1. Ranking and Answers to Research Questions
 <figure>
 <p align="center"><img src="Ranking Table 1.png" width="800"/></p>
-<figcaption align="center">Table 5: Ranking of Test Scenarios at the MiL and HiL levels.</figcaption>
+<p align="center"><figcaption align="center">Table 5: Ranking of Test Scenarios at the MiL and HiL levels.</figcaption></p>
 </figure>
 Table 5 shows the ranking of the test scenarios at the MiL and HiL level. To obtain the score of eachtest scenario, Correlation Combination 4 was used, that is the product of the number of faults detectedand the weight of the alteration applied to the model, in the MiL case, and the number of tiles, in theHiL case.
 The ranking was both quantitative and qualitative. In the quantitative view, test scenarios with lowerscores were ranked above those with higher scores. In the qualitative view, test scenarios that haddetected all the faults were ranked above those that did not. Therefore, even though TS 4 and TS 3 hadthe lowest scores they received a low rank because they did not detect all the faults.
@@ -208,7 +208,7 @@ The average prediction accuracy of the plant model with regard to the expected b
 
 <figure>
 <p align="center"><img src="Ranking Table 2.png" width="800"/></p>
-<figcaption align="center">Table 6: Ranking of Test Scenarios at the MiL and HiL levels according to the four correlation combinations.</figcaption>
+<p align="center"><figcaption align="center">Table 6: Ranking of Test Scenarios at the MiL and HiL levels according to the four correlation combinations.</figcaption></p>
 </figure>
 
 

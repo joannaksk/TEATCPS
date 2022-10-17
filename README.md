@@ -22,7 +22,7 @@ The [MATLAB Support Package for Raspberry Pi](https://nl.mathworks.com/hardware-
 </figure>
 The control model of the robot was altered so that the LineFollowControl model component was it's own model that could be referenced by other models. This was done to allow it to be used to control the plant model of the robot during simulation.
 <figure>
-<p align="center">[<img src="control model altered.png" width="600"/>] (control model altered.png)</p>
+<p align="center"><img src="control model altered.png" width="600"/></p>
 <figcaption align="center">Figure 3: The figure shows the control model altered by extracting the LineFollowControl sub-model and re-importing it as a Referenced model.</figcaption>
 </figure>
 <figure>

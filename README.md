@@ -218,7 +218,8 @@ The average prediction accuracy of the plant model with regard to the expected b
 Comparing the MiL and HiL ranks depicted in Tables 5 and 6 shows that this method provides us agood estimation of the effectiveness of the test scenarios in case of real faults.Even though the plant model we created had an average prediction accuracy of **48.75%**, it was able topredict whether a fault would be detected at the HiL level. We expect that this accuracy would increasewith the accuracy of the model. Therefore, as an estimator of behaviour in case of real faults, this methodgives a good estimation of the effectiveness of each test scenario. In addition, three of the test scenariosidentified as the best at the MiL level were also identified as the best at the HiL level.
 
 # Videos:
-
+{% raw %} {% include youtube.html id="PLyWBNY8YnJ9qcuNFxGEd7RDKMcf_zPOXa" %}
+{% endraw %}
 
 |       |               MiL               |                                     HiL                                    |
 |:-----:|:-------------------------------:|:--------------------------------------------------------------------------:|

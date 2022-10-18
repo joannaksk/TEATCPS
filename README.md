@@ -219,28 +219,28 @@ The average prediction accuracy of the plant model with regard to the expected b
 
 # Videos:
 
-|       |               MiL               |                                     HiL                                    |
-|:-----:|:-------------------------------:|:--------------------------------------------------------------------------:|
-| TS 1  | ev3\_plant\_model\_v2\_15\_ts1  | [![ev3\_plant\_model\_v2\_15\_ts1](https://i.ytimg.com/vi/2g_a4G7bNPk/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9qcuNFxGEd7RDKMcf_zPOXa)         |
-|       | LEGO EV3 Robot TS 1             | [![LEGO EV3 Robot TS 1](https://i.ytimg.com/vi/G8AnjOhQIqE/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rr59p4NFxYIko6oftZMIdD)         |
-| TS 2  | ev3\_plant\_model\_v2\_15\_ts2  | [![ev3\_plant\_model\_v2\_15\_ts2](https://i.ytimg.com/vi/6tHUKfH9X6w/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9oBE8Neh1dx5gwxp1uY4gWs)         |
-|       | LEGO EV3 Robot TS 2             | [![LEGO EV3 Robot TS 2](https://i.ytimg.com/vi/vap4GvpPr0g/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9q_36V5WQOVa8iESYLGy0DU)         |
-| TS 3  | ev3\_plant\_model\_v2\_15\_ts3  | [![ev3\_plant\_model\_v2\_15\_ts3](https://i.ytimg.com/vi/0JtutkCuAFM/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9pghYgy0fDDRcqWZR4Ts_wo)         |
-|       | LEGO EV3 Robot TS 3             | [![LEGO EV3 Robot TS 3](https://i.ytimg.com/vi/72_OCUysIaw/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9pmQq65JeuDqwyCVneffCLd)         |
-| TS 4  | ev3\_plant\_model\_v2\_15\_ts4  | [![ev3\_plant\_model\_v2\_15\_ts4](https://i.ytimg.com/vi/X2rqRxO95Lw/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rEdk3LM88EzhtMJ7FnPmDz)         |
-|       | LEGO EV3 Robot TS 4             | [![LEGO EV3 Robot TS 4](https://i.ytimg.com/vi/agaHCyO1Wp8/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9ply-3CV59-mLckHODgEXUs)         |
-| TS 5  | ev3\_plant\_model\_v2\_15\_ts5  | [![ev3\_plant\_model\_v2\_15\_ts5](https://i.ytimg.com/vi/4CbX5eIHxQo/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rNDSW15N1m6fxFDq60HAq5)         |
-|       | LEGO EV3 Robot TS 5             | [![LEGO EV3 Robot TS 5](https://i.ytimg.com/vi/2FtWNP6OebI/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9pv9KpT1Ul8IcemyIwqCiI0)         |
-| TS 6  | ev3\_plant\_model\_v2\_15\_ts6  | [![ev3\_plant\_model\_v2\_15\_ts6](https://i.ytimg.com/vi/Zd7_V5n82cs/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rSjU16cBqrZAzJDT0zaLEs)         |
-|       | LEGO EV3 Robot TS 6             | [![LEGO EV3 Robot TS 6](https://i.ytimg.com/vi/j-OaK7J5zeI/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rHv0LhaNLJ4lucRpUZJMuc)         |
-| TS 7  | ev3\_plant\_model\_v2\_15\_ts7  | [![ev3\_plant\_model\_v2\_15\_ts7](https://i.ytimg.com/vi/Fe6N0sxFpxA/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rtnUZydM5KbwdrIbQO5fuu)         |
-|       | LEGO EV3 Robot TS 7             | [![LEGO EV3 Robot TS 7](https://i.ytimg.com/vi/jxtuv1UsvGI/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9qKFU25B06zALR9s9jpgNha)         |
-| TS 8  | ev3\_plant\_model\_v2\_15\_ts8  | [![ev3\_plant\_model\_v2\_15\_ts8](https://i.ytimg.com/vi/4VvxYV3i6p4/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rNACbR0-ofQRFEVc--G8ur)         |
-|       | LEGO EV3 Robot TS 8             | [![LEGO EV3 Robot TS 8](https://i.ytimg.com/vi/zx8XHk_5u_o/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rGxRwfyhZ0b9ju_T6TITck)         |
-| TS 9  | ev3\_plant\_model\_v2\_15\_ts9  | [![ev3\_plant\_model\_v2\_15\_ts9](https://i.ytimg.com/vi/Ge-EI7MC2LA/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9oWpa7mLw0WanutgpPtchW0)         |
-|       | LEGO EV3 Robot TS 9             | [![LEGO EV3 Robot TS 9](https://i.ytimg.com/vi/78qguU_3nqk/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9pAk2mtNAjUoEjCPwUhdcQo)         |
-| TS 10 | ev3\_plant\_model\_v2\_16\_ts10 | [![ev3\_plant\_model\_v2\_16\_ts10](https://i.ytimg.com/vi/9DUA5Rw6ZB0/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rH53L5vMaTWSdE-XtA1bW1)         |
-|       | LEGO EV3 Robot TS 10            | [![LEGO EV3 Robot TS 10](https://i.ytimg.com/vi/QJ-0rFo7BWU/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9qV4kWtTfqbRC0ukjKw25u7)         |
+|               Name               |                                     Link to Video                                    |
+|:-------------------------------:|:--------------------------------------------------------------------------:|
+| ev3\_plant\_model\_v2\_15\_ts1  | [![ev3\_plant\_model\_v2\_15\_ts1](https://i.ytimg.com/vi/2g_a4G7bNPk/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9qcuNFxGEd7RDKMcf_zPOXa)         |
+| LEGO EV3 Robot TS 1             | [![LEGO EV3 Robot TS 1](https://i.ytimg.com/vi/G8AnjOhQIqE/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rr59p4NFxYIko6oftZMIdD)         |
+| ev3\_plant\_model\_v2\_15\_ts2  | [![ev3\_plant\_model\_v2\_15\_ts2](https://i.ytimg.com/vi/6tHUKfH9X6w/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9oBE8Neh1dx5gwxp1uY4gWs)         |
+| LEGO EV3 Robot TS 2             | [![LEGO EV3 Robot TS 2](https://i.ytimg.com/vi/vap4GvpPr0g/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9q_36V5WQOVa8iESYLGy0DU)         |
+| ev3\_plant\_model\_v2\_15\_ts3  | [![ev3\_plant\_model\_v2\_15\_ts3](https://i.ytimg.com/vi/0JtutkCuAFM/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9pghYgy0fDDRcqWZR4Ts_wo)         |
+| LEGO EV3 Robot TS 3             | [![LEGO EV3 Robot TS 3](https://i.ytimg.com/vi/72_OCUysIaw/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9pmQq65JeuDqwyCVneffCLd)         |
+| ev3\_plant\_model\_v2\_15\_ts4  | [![ev3\_plant\_model\_v2\_15\_ts4](https://i.ytimg.com/vi/X2rqRxO95Lw/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rEdk3LM88EzhtMJ7FnPmDz)         |
+| LEGO EV3 Robot TS 4             | [![LEGO EV3 Robot TS 4](https://i.ytimg.com/vi/agaHCyO1Wp8/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9ply-3CV59-mLckHODgEXUs)         |
+| ev3\_plant\_model\_v2\_15\_ts5  | [![ev3\_plant\_model\_v2\_15\_ts5](https://i.ytimg.com/vi/4CbX5eIHxQo/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rNDSW15N1m6fxFDq60HAq5)         |
+| LEGO EV3 Robot TS 5             | [![LEGO EV3 Robot TS 5](https://i.ytimg.com/vi/2FtWNP6OebI/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9pv9KpT1Ul8IcemyIwqCiI0)         |
+| ev3\_plant\_model\_v2\_15\_ts6  | [![ev3\_plant\_model\_v2\_15\_ts6](https://i.ytimg.com/vi/Zd7_V5n82cs/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rSjU16cBqrZAzJDT0zaLEs)         |
+| LEGO EV3 Robot TS 6             | [![LEGO EV3 Robot TS 6](https://i.ytimg.com/vi/j-OaK7J5zeI/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rHv0LhaNLJ4lucRpUZJMuc)         |
+| ev3\_plant\_model\_v2\_15\_ts7  | [![ev3\_plant\_model\_v2\_15\_ts7](https://i.ytimg.com/vi/Fe6N0sxFpxA/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rtnUZydM5KbwdrIbQO5fuu)         |
+| LEGO EV3 Robot TS 7             | [![LEGO EV3 Robot TS 7](https://i.ytimg.com/vi/jxtuv1UsvGI/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9qKFU25B06zALR9s9jpgNha)         |
+| ev3\_plant\_model\_v2\_15\_ts8  | [![ev3\_plant\_model\_v2\_15\_ts8](https://i.ytimg.com/vi/4VvxYV3i6p4/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rNACbR0-ofQRFEVc--G8ur)         |
+| LEGO EV3 Robot TS 8             | [![LEGO EV3 Robot TS 8](https://i.ytimg.com/vi/zx8XHk_5u_o/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rGxRwfyhZ0b9ju_T6TITck)         |
+| ev3\_plant\_model\_v2\_15\_ts9  | [![ev3\_plant\_model\_v2\_15\_ts9](https://i.ytimg.com/vi/Ge-EI7MC2LA/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9oWpa7mLw0WanutgpPtchW0)         |
+| LEGO EV3 Robot TS 9             | [![LEGO EV3 Robot TS 9](https://i.ytimg.com/vi/78qguU_3nqk/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9pAk2mtNAjUoEjCPwUhdcQo)         |
+| ev3\_plant\_model\_v2\_16\_ts10 | [![ev3\_plant\_model\_v2\_16\_ts10](https://i.ytimg.com/vi/9DUA5Rw6ZB0/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9rH53L5vMaTWSdE-XtA1bW1)         |
+| LEGO EV3 Robot TS 10            | [![LEGO EV3 Robot TS 10](https://i.ytimg.com/vi/QJ-0rFo7BWU/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLyWBNY8YnJ9qV4kWtTfqbRC0ukjKw25u7)         |
 
 
 # Contact: 

@@ -218,31 +218,33 @@ The average prediction accuracy of the plant model with regard to the expected b
 Comparing the MiL and HiL ranks depicted in Tables 5 and 6 shows that this method provides us agood estimation of the effectiveness of the test scenarios in case of real faults.Even though the plant model we created had an average prediction accuracy of **48.75%**, it was able topredict whether a fault would be detected at the HiL level. We expect that this accuracy would increasewith the accuracy of the model. Therefore, as an estimator of behaviour in case of real faults, this methodgives a good estimation of the effectiveness of each test scenario. In addition, three of the test scenariosidentified as the best at the MiL level were also identified as the best at the HiL level.
 
 # Videos:
-{% raw %} {% include youtube.html id="PLyWBNY8YnJ9qcuNFxGEd7RDKMcf_zPOXa" %}
-{% endraw %}
+![](1.svg)
+
+{% include youtube.html id="JLMbpiywVxQ" %}
+
 
 |       |               MiL               |                                     HiL                                    |
 |:-----:|:-------------------------------:|:--------------------------------------------------------------------------:|
-| TS 1  | ev3\_plant\_model\_v2\_15\_ts1  | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9qcuNFxGEd7RDKMcf_zPOXa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-|       | LEGO EV3 Robot TS 1             | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9rr59p4NFxYIko6oftZMIdD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-| TS 2  | ev3\_plant\_model\_v2\_15\_ts2  | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9oBE8Neh1dx5gwxp1uY4gWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-|       | LEGO EV3 Robot TS 2             | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9q_36V5WQOVa8iESYLGy0DU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-| TS 3  | ev3\_plant\_model\_v2\_15\_ts3  | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9pghYgy0fDDRcqWZR4Ts_wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-|       | LEGO EV3 Robot TS 3             | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9pmQq65JeuDqwyCVneffCLd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-| TS 4  | ev3\_plant\_model\_v2\_15\_ts4  | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9rEdk3LM88EzhtMJ7FnPmDz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-|       | LEGO EV3 Robot TS 4             | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9ply-3CV59-mLckHODgEXUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-| TS 5  | ev3\_plant\_model\_v2\_15\_ts5  | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9rNDSW15N1m6fxFDq60HAq5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-|       | LEGO EV3 Robot TS 5             | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9pv9KpT1Ul8IcemyIwqCiI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-| TS 6  | ev3\_plant\_model\_v2\_15\_ts6  | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9rSjU16cBqrZAzJDT0zaLEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-|       | LEGO EV3 Robot TS 6             | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9rHv0LhaNLJ4lucRpUZJMuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-| TS 7  | ev3\_plant\_model\_v2\_15\_ts7  | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9rtnUZydM5KbwdrIbQO5fuu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-|       | LEGO EV3 Robot TS 7             | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9qKFU25B06zALR9s9jpgNha" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-| TS 8  | ev3\_plant\_model\_v2\_15\_ts8  | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9rNACbR0-ofQRFEVc--G8ur" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-|       | LEGO EV3 Robot TS 8             | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9rGxRwfyhZ0b9ju_T6TITck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-| TS 9  | ev3\_plant\_model\_v2\_15\_ts9  | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9oWpa7mLw0WanutgpPtchW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-|       | LEGO EV3 Robot TS 9             | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9pAk2mtNAjUoEjCPwUhdcQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-| TS 10 | ev3\_plant\_model\_v2\_16\_ts10 | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9rH53L5vMaTWSdE-XtA1bW1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
-|       | LEGO EV3 Robot TS 10            | <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyWBNY8YnJ9qV4kWtTfqbRC0ukjKw25u7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         |
+| TS 1  | ev3\_plant\_model\_v2\_15\_ts1  | {% include youtube.html id=”PLyWBNY8YnJ9qcuNFxGEd7RDKMcf_zPOXa" %}         |
+|       | LEGO EV3 Robot TS 1             | {% include youtube.html id=”PLyWBNY8YnJ9rr59p4NFxYIko6oftZMIdD" %}         |
+| TS 2  | ev3\_plant\_model\_v2\_15\_ts2  | {% include youtube.html id=”PLyWBNY8YnJ9oBE8Neh1dx5gwxp1uY4gWs" %}         |
+|       | LEGO EV3 Robot TS 2             | {% include youtube.html id=”PLyWBNY8YnJ9q_36V5WQOVa8iESYLGy0DU" %}         |
+| TS 3  | ev3\_plant\_model\_v2\_15\_ts3  | {% include youtube.html id=”PLyWBNY8YnJ9pghYgy0fDDRcqWZR4Ts_wo" %}         |
+|       | LEGO EV3 Robot TS 3             | {% include youtube.html id=”PLyWBNY8YnJ9pmQq65JeuDqwyCVneffCLd" %}         |
+| TS 4  | ev3\_plant\_model\_v2\_15\_ts4  | {% include youtube.html id=”PLyWBNY8YnJ9rEdk3LM88EzhtMJ7FnPmDz" %}         |
+|       | LEGO EV3 Robot TS 4             | {% include youtube.html id=”PLyWBNY8YnJ9ply-3CV59-mLckHODgEXUs" %}         |
+| TS 5  | ev3\_plant\_model\_v2\_15\_ts5  | {% include youtube.html id=”PLyWBNY8YnJ9rNDSW15N1m6fxFDq60HAq5" %}         |
+|       | LEGO EV3 Robot TS 5             | {% include youtube.html id=”PLyWBNY8YnJ9pv9KpT1Ul8IcemyIwqCiI0" %}         |
+| TS 6  | ev3\_plant\_model\_v2\_15\_ts6  | {% include youtube.html id=”PLyWBNY8YnJ9rSjU16cBqrZAzJDT0zaLEs" %}         |
+|       | LEGO EV3 Robot TS 6             | {% include youtube.html id=”PLyWBNY8YnJ9rHv0LhaNLJ4lucRpUZJMuc" %}         |
+| TS 7  | ev3\_plant\_model\_v2\_15\_ts7  | {% include youtube.html id=”PLyWBNY8YnJ9rtnUZydM5KbwdrIbQO5fuu" %}         |
+|       | LEGO EV3 Robot TS 7             | {% include youtube.html id=”PLyWBNY8YnJ9qKFU25B06zALR9s9jpgNha" %}         |
+| TS 8  | ev3\_plant\_model\_v2\_15\_ts8  | {% include youtube.html id=”PLyWBNY8YnJ9rNACbR0-ofQRFEVc--G8ur" %}         |
+|       | LEGO EV3 Robot TS 8             | {% include youtube.html id=”PLyWBNY8YnJ9rGxRwfyhZ0b9ju_T6TITck" %}         |
+| TS 9  | ev3\_plant\_model\_v2\_15\_ts9  | {% include youtube.html id=”PLyWBNY8YnJ9oWpa7mLw0WanutgpPtchW0" %}         |
+|       | LEGO EV3 Robot TS 9             | {% include youtube.html id=”PLyWBNY8YnJ9pAk2mtNAjUoEjCPwUhdcQo" %}         |
+| TS 10 | ev3\_plant\_model\_v2\_16\_ts10 | {% include youtube.html id=”PLyWBNY8YnJ9rH53L5vMaTWSdE-XtA1bW1" %}         |
+|       | LEGO EV3 Robot TS 10            | {% include youtube.html id=”PLyWBNY8YnJ9qV4kWtTfqbRC0ukjKw25u7" %}         |
 
 
 # Contact: 
